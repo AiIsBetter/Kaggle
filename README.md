@@ -1,3 +1,1 @@
-# Python
-Only for testing, the follow-up will be improved·
-Good Luck！
+记录下自己从计算机视觉转行到数据挖掘中间写的一些代码和总结，备份和分享下，当中有一些参考了别人代码的工程，如有侵权，请联系我删除下。
