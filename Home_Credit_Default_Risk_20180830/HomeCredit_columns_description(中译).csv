@@ -1,0 +1,220 @@
+,Table,Row,Description,Special,chinese,,,
+1,application_{train|test}.csv,SK_ID_CURR,ID of loan in our sample,,,,,
+2,application_{train|test}.csv,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)",,,,,
+5,application_{train|test}.csv,NAME_CONTRACT_TYPE,Identification if loan is cash or revolving,,贷款类型，循环贷款or现金贷款,,,
+6,application_{train|test}.csv,CODE_GENDER,Gender of the client,,贷款人性别,,,
+7,application_{train|test}.csv,FLAG_OWN_CAR,Flag if the client owns a car,,是否拥有车辆,,,
+8,application_{train|test}.csv,FLAG_OWN_REALTY,Flag if client owns a house or flat,,是否拥有房子,,,
+9,application_{train|test}.csv,CNT_CHILDREN,Number of children the client has,,有几个小孩,,,
+10,application_{train|test}.csv,AMT_INCOME_TOTAL,Income of the client,,总收入,,,
+11,application_{train|test}.csv,AMT_CREDIT,Credit amount of the loan,,贷款信用额度,,,
+12,application_{train|test}.csv,AMT_ANNUITY,Loan annuity,,贷款每年金额,,,
+13,application_{train|test}.csv,AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given,,对于消费贷款，是贷款的商品的价格,,,
+14,application_{train|test}.csv,NAME_TYPE_SUITE,Who was accompanying client when he was applying for the loan,,贷款人跟谁来贷款,,,
+15,application_{train|test}.csv,NAME_INCOME_TYPE,"Clients income type (businessman, working, maternity leave,?",,收入种类,,,
+16,application_{train|test}.csv,NAME_EDUCATION_TYPE,Level of highest education the client achieved,,最高学历,,,
+17,application_{train|test}.csv,NAME_FAMILY_STATUS,Family status of the client,,家庭状况,,,
+18,application_{train|test}.csv,NAME_HOUSING_TYPE,"What is the housing situation of the client (renting, living with parents, ...)",,住房状况（与父母、或租房子等）,,,
+19,application_{train|test}.csv,REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region),normalized ,居住地的人口数量,,,
+20,application_{train|test}.csv,DAYS_BIRTH,Client's age in days at the time of application,time only relative to the application,申请贷款时候的年纪,,,
+21,application_{train|test}.csv,DAYS_EMPLOYED,How many days before the application the person started current employment,time only relative to the application,申请前多久开始目前的工作,,,
+22,application_{train|test}.csv,DAYS_REGISTRATION,How many days before the application did client change his registration,time only relative to the application,申请前多久修改了注册信息,,,
+23,application_{train|test}.csv,DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan,time only relative to the application,申请前多久修改了身份证明文件,,,
+24,application_{train|test}.csv,OWN_CAR_AGE,Age of client's car,,拥有的车的年纪,,,
+25,application_{train|test}.csv,FLAG_MOBIL,"Did client provide mobile phone (1=YES, 0=NO)",,是否提供移动电话,,,
+26,application_{train|test}.csv,FLAG_EMP_PHONE,"Did client provide work phone (1=YES, 0=NO)",,是否提供公司电话,,,
+27,application_{train|test}.csv,FLAG_WORK_PHONE,"Did client provide home phone (1=YES, 0=NO)",,是否提供家用电话,,,
+28,application_{train|test}.csv,FLAG_CONT_MOBILE,"Was mobile phone reachable (1=YES, 0=NO)",,移动电话能否联系到,,,
+29,application_{train|test}.csv,FLAG_PHONE,"Did client provide home phone (1=YES, 0=NO)",,是否提供家用电话,,,
+30,application_{train|test}.csv,FLAG_EMAIL,"Did client provide email (1=YES, 0=NO)",,是否提供email,,,
+31,application_{train|test}.csv,OCCUPATION_TYPE,What kind of occupation does the client have,,什么职业,,,
+32,application_{train|test}.csv,CNT_FAM_MEMBERS,How many family members does client have,,家里多少人,,,
+33,application_{train|test}.csv,REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)",,居住区域评级,,,
+34,application_{train|test}.csv,REGION_RATING_CLIENT_W_CITY,"Our rating of the region where client lives with taking city into account (1,2,3)",,居住区域所在城市的评级,,,
+35,application_{train|test}.csv,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for the loan,,星期几申请贷款的,,,
+36,application_{train|test}.csv,HOUR_APPR_PROCESS_START,Approximately at what hour did the client apply for the loan,rounded,大概几点申请贷款的,,,
+37,application_{train|test}.csv,REG_REGION_NOT_LIVE_REGION,"Flag if client's permanent address does not match contact address (1=different, 0=same, at region level)",,如果客户的永久地址与联系人地址不匹配,,,
+38,application_{train|test}.csv,REG_REGION_NOT_WORK_REGION,"Flag if client's permanent address does not match work address (1=different, 0=same, at region level)",,如果客户的永久地址与工作地址不匹配,,,
+39,application_{train|test}.csv,LIVE_REGION_NOT_WORK_REGION,"Flag if client's contact address does not match work address (1=different, 0=same, at region level)",,如果客户的联系人地址与工作地址不匹配,,,
+40,application_{train|test}.csv,REG_CITY_NOT_LIVE_CITY,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)",,city:如果客户的永久地址与联系人地址不匹配,,,
+41,application_{train|test}.csv,REG_CITY_NOT_WORK_CITY,"Flag if client's permanent address does not match work address (1=different, 0=same, at city level)",,city:如果客户的永久地址与工作地址不匹配,,,
+42,application_{train|test}.csv,LIVE_CITY_NOT_WORK_CITY,"Flag if client's contact address does not match work address (1=different, 0=same, at city level)",,city:如果客户的联系人地址与工作地址不匹配,,,
+43,application_{train|test}.csv,ORGANIZATION_TYPE,Type of organization where client works,,公司性质,,,
+44,application_{train|test}.csv,EXT_SOURCE_1,Normalized score from external data source,normalized,外部得分1,,,
+45,application_{train|test}.csv,EXT_SOURCE_2,Normalized score from external data source,normalized,外部得分2,,,
+46,application_{train|test}.csv,EXT_SOURCE_3,Normalized score from external data source,normalized,外部得分3,,,
+47,application_{train|test}.csv,APARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,客户居住建筑物的标准化信息,,,均值
+48,application_{train|test}.csv,BASEMENTAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,地下室面积,,,均值
+49,application_{train|test}.csv,YEARS_BEGINEXPLUATATION_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,,,,
+50,application_{train|test}.csv,YEARS_BUILD_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼栋建筑时间,,,均值
+51,application_{train|test}.csv,COMMONAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,公共面积大小,,,均值
+52,application_{train|test}.csv,ELEVATORS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,电梯数,,,均值
+53,application_{train|test}.csv,ENTRANCES_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,入口数,,,均值
+54,application_{train|test}.csv,FLOORSMAX_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最高,,,均值
+55,application_{train|test}.csv,FLOORSMIN_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最低,,,均值
+56,application_{train|test}.csv,LANDAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼房土地面积,,,均值
+57,application_{train|test}.csv,LIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,住房数目,,,均值
+58,application_{train|test}.csv,LIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,居住大小,,,均值
+59,application_{train|test}.csv,NONLIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住房屋,,,均值
+60,application_{train|test}.csv,NONLIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住面积,,,均值
+61,application_{train|test}.csv,APARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,客户居住建筑物的标准化信息,,,均值
+62,application_{train|test}.csv,BASEMENTAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,地下室面积,,,众数
+63,application_{train|test}.csv,YEARS_BEGINEXPLUATATION_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,,,,众数
+64,application_{train|test}.csv,YEARS_BUILD_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼栋建筑时间,,,众数
+65,application_{train|test}.csv,COMMONAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,公共面积大小,,,众数
+66,application_{train|test}.csv,ELEVATORS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,电梯数,,,众数
+67,application_{train|test}.csv,ENTRANCES_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,入口数,,,众数
+68,application_{train|test}.csv,FLOORSMAX_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最高,,,众数
+69,application_{train|test}.csv,FLOORSMIN_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最低,,,众数
+70,application_{train|test}.csv,LANDAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼房土地面积,,,众数
+71,application_{train|test}.csv,LIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,住房数目,,,众数
+72,application_{train|test}.csv,LIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,居住大小,,,众数
+73,application_{train|test}.csv,NONLIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住房屋,,,众数
+74,application_{train|test}.csv,NONLIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住面积,,,众数
+75,application_{train|test}.csv,APARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,客户居住建筑物的标准化信息,,,中值
+76,application_{train|test}.csv,BASEMENTAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,地下室面积,,,中值
+77,application_{train|test}.csv,YEARS_BEGINEXPLUATATION_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,,,,中值
+78,application_{train|test}.csv,YEARS_BUILD_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼栋建筑时间,,,中值
+79,application_{train|test}.csv,COMMONAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,公共面积大小,,,中值
+80,application_{train|test}.csv,ELEVATORS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,电梯数,,,中值
+81,application_{train|test}.csv,ENTRANCES_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,入口数,,,中值
+82,application_{train|test}.csv,FLOORSMAX_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最高,,,中值
+83,application_{train|test}.csv,FLOORSMIN_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼层最低,,,中值
+84,application_{train|test}.csv,LANDAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,楼房土地面积,,,中值
+85,application_{train|test}.csv,LIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,住房数目,,,中值
+86,application_{train|test}.csv,LIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,居住大小,,,中值
+87,application_{train|test}.csv,NONLIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住房屋,,,中值
+88,application_{train|test}.csv,NONLIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,未居住面积,,,中值
+89,application_{train|test}.csv,FONDKAPREMONT_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,,,,众数
+90,application_{train|test}.csv,HOUSETYPE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,房子类型,,,众数
+91,application_{train|test}.csv,TOTALAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,总面积,,,众数
+92,application_{train|test}.csv,WALLSMATERIAL_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,墙体材料,,,众数
+93,application_{train|test}.csv,EMERGENCYSTATE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor",normalized,应急门数量,,,众数
+94,application_{train|test}.csv,OBS_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 30 DPD (days past due) default,,客户周围可观察的30天逾期数量,,,
+95,application_{train|test}.csv,DEF_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 30 DPD (days past due) ,,客户周围违约30天数量,,,
+96,application_{train|test}.csv,OBS_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 60 DPD (days past due) default,,客户周围可观察的60天逾期数量,,,
+97,application_{train|test}.csv,DEF_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 60 (days past due) DPD,,客户周围60天违约数量,,,
+98,application_{train|test}.csv,DAYS_LAST_PHONE_CHANGE,How many days before application did client change phone,,在申请前多少天客户更换了电话,,,
+99,application_{train|test}.csv,FLAG_DOCUMENT_2,Did client provide document 2,,,,,
+100,application_{train|test}.csv,FLAG_DOCUMENT_3,Did client provide document 3,,,,,
+101,application_{train|test}.csv,FLAG_DOCUMENT_4,Did client provide document 4,,,,,
+102,application_{train|test}.csv,FLAG_DOCUMENT_5,Did client provide document 5,,,,,
+103,application_{train|test}.csv,FLAG_DOCUMENT_6,Did client provide document 6,,,,,
+104,application_{train|test}.csv,FLAG_DOCUMENT_7,Did client provide document 7,,,,,
+105,application_{train|test}.csv,FLAG_DOCUMENT_8,Did client provide document 8,,,,,
+106,application_{train|test}.csv,FLAG_DOCUMENT_9,Did client provide document 9,,,,,
+107,application_{train|test}.csv,FLAG_DOCUMENT_10,Did client provide document 10,,,,,
+108,application_{train|test}.csv,FLAG_DOCUMENT_11,Did client provide document 11,,,,,
+109,application_{train|test}.csv,FLAG_DOCUMENT_12,Did client provide document 12,,,,,
+110,application_{train|test}.csv,FLAG_DOCUMENT_13,Did client provide document 13,,,,,
+111,application_{train|test}.csv,FLAG_DOCUMENT_14,Did client provide document 14,,,,,
+112,application_{train|test}.csv,FLAG_DOCUMENT_15,Did client provide document 15,,,,,
+113,application_{train|test}.csv,FLAG_DOCUMENT_16,Did client provide document 16,,,,,
+114,application_{train|test}.csv,FLAG_DOCUMENT_17,Did client provide document 17,,,,,
+115,application_{train|test}.csv,FLAG_DOCUMENT_18,Did client provide document 18,,,,,
+116,application_{train|test}.csv,FLAG_DOCUMENT_19,Did client provide document 19,,,,,
+117,application_{train|test}.csv,FLAG_DOCUMENT_20,Did client provide document 20,,,,,
+118,application_{train|test}.csv,FLAG_DOCUMENT_21,Did client provide document 21,,,,,
+119,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_HOUR,Number of enquiries to Credit Bureau about the client one hour before application,,客户在申请前一小时在信贷局查询的次数,,,
+120,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_DAY,Number of enquiries to Credit Bureau about the client one day before application (excluding one hour before application),,客户在申请前一天到前一小时为止在信贷局查询的次数,,,
+121,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_WEEK,Number of enquiries to Credit Bureau about the client one week before application (excluding one day before application),,一周,,,
+122,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_MON,Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application),,一个月,,,
+123,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_QRT,Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application),,3个月,,,
+124,application_{train|test}.csv,AMT_REQ_CREDIT_BUREAU_YEAR,Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application),,一年,,,
+125,bureau.csv,SK_ID_CURR,"ID of loan in our sample - one loan in our sample can have 0,1,2 or more related previous credits in credit bureau ",hashed,"　样本ID(客户ID),每个ID可能会有多条之前的信贷记录",,,
+126,bureau.csv,SK_BUREAU_ID,Recoded ID of previous Credit Bureau credit related to our loan (unique coding for each loan application),hashed,"　 信贷机构的记录ID,",,,
+127,bureau.csv,CREDIT_ACTIVE,Status of the Credit Bureau (CB) reported credits,,信用机构(局)信用报告的情况,,,
+128,bureau.csv,CREDIT_CURRENCY,Recoded currency of the Credit Bureau credit,recoded,信用记录，4中类型,,,
+129,bureau.csv,DAYS_CREDIT,How many days before current application did client apply for Credit Bureau credit,time only relative to the application,在当前申请前多少天客户申请过信贷,,,
+130,bureau.csv,CREDIT_DAY_OVERDUE,Number of days past due on CB credit at the time of application for related loan in our sample,,样本中的客户在申请贷款时，之前申请的贷款还有多少天到期,,,
+131,bureau.csv,DAYS_CREDIT_ENDDATE,Remaining duration of CB credit (in days) at the time of application in Home Credit,time only relative to the application,之前信贷的剩余时间,,,
+132,bureau.csv,DAYS_ENDDATE_FACT,Days since CB credit ended at the time of application in Home Credit (only for closed credit),time only relative to the application,客户之前贷款还款最后期限距离当前申请的间隔天数,,,
+133,bureau.csv,AMT_CREDIT_MAX_OVERDUE,Maximal amount overdue on the Credit Bureau credit so far (at application date of loan in our sample),,目前为止客户贷款的最高金额,,,
+134,bureau.csv,CNT_CREDIT_PROLONG,How many times was the Credit Bureau credit prolonged,,　客户之前贷款中延期还款的次数,,,
+135,bureau.csv,AMT_CREDIT_SUM,Current credit amount for the Credit Bureau credit,,信贷机构的贷款额度,,,
+136,bureau.csv,AMT_CREDIT_SUM_DEBT,Current debt on Credit Bureau credit,,信贷机构当前的债务,,,
+137,bureau.csv,AMT_CREDIT_SUM_LIMIT,Current credit limit of credit card reported in Credit Bureau,,当前的信用卡额度,,,
+138,bureau.csv,AMT_CREDIT_SUM_OVERDUE,Current amount overdue on Credit Bureau credit,,信贷机构贷款逾期的金额,,,
+139,bureau.csv,CREDIT_TYPE,"Type of Credit Bureau credit (Car, cash,...)",,贷款类型,,,
+140,bureau.csv,DAYS_CREDIT_UPDATE,How many days before loan application did last information about the Credit Bureau credit come,time only relative to the application,距离当前申请贷款前多少天客户之前贷款信息更新,,,
+141,bureau.csv,AMT_ANNUITY,Annuity of the Credit Bureau credit,,信贷机构的年度贷款额度,,,
+142,bureau_balance.csv,SK_BUREAU_ID,Recoded ID of Credit Bureau credit (unique coding for each application) - use this to join to CREDIT_BUREAU table ,hashed,信贷机构每个月的历史记录,,,
+143,bureau_balance.csv,MONTHS_BALANCE,Month of balance relative to application date (-1 means the freshest balance date),time only relative to the application,相对于当前的申请剩余月份,,,
+144,bureau_balance.csv,STATUS,"Status of Credit Bureau loan during the month (active, closed, DPD0-30,?[C means closed, X means status unknown, 0 means no DPD, 1 means maximal did during month between 1-30, 2 means DPD 31-60,?5 means DPD 120+ or sold or written off ] )",,三个特征，逾期、未逾期、未知,,,
+145,POS_CASH_balance.csv,SK_ID_PREV ,"ID of previous credit in Home Credit related to loan in our sample. (One loan in our sample can have 0,1,2 or more previous loans in Home Credit)",,,,,
+146,POS_CASH_balance.csv,SK_ID_CURR,ID of loan in our sample,,,,,
+147,POS_CASH_balance.csv,MONTHS_BALANCE,"Month of balance relative to application date (-1 means the information to the freshest monthly snapshot, 0 means the information at application - often it will be the same as -1 as many banks are not updating the information to Credit Bureau regularly )",time only relative to the application,相对于申请日期的月份余额（-1表示最新月度快照的信息，0表示申请时的信息 - 通常与-1相同,,,
+148,POS_CASH_balance.csv,CNT_INSTALMENT,Term of previous credit (can change over time),,之前的贷款期限,,,
+149,POS_CASH_balance.csv,CNT_INSTALMENT_FUTURE,Installments left to pay on the previous credit,,分期贷款剩余,,,
+150,POS_CASH_balance.csv,NAME_CONTRACT_STATUS,Contract status during the month,,当月合同状态,,,
+151,POS_CASH_balance.csv,SK_DPD,DPD (days past due) during the month of previous credit,,之前贷款逾期的天数,,,
+152,POS_CASH_balance.csv,SK_DPD_DEF,DPD during the month with tolerance (debts with low loan amounts are ignored) of the previous credit,,逾期不超过一个月,,,
+153,credit_card_balance.csv,SK_ID_PREV ,"ID of previous credit in Home credit related to loan in our sample. (One loan in our sample can have 0,1,2 or more previous loans in Home Credit)",hashed, 在Home Credit的样本数据中，之前在其他机构贷款的ID,,,
+154,credit_card_balance.csv,SK_ID_CURR,ID of loan in our sample,hashed,,,,
+155,credit_card_balance.csv,MONTHS_BALANCE,Month of balance relative to application date (-1 means the freshest balance date),time only relative to the application,相对于申请日期的月份余额,,,
+156,credit_card_balance.csv,AMT_BALANCE,Balance during the month of previous credit,,之前贷款每月剩余数目,,,
+157,credit_card_balance.csv,AMT_CREDIT_LIMIT_ACTUAL,Credit card limit during the month of the previous credit,,信用卡额度,,,
+158,credit_card_balance.csv,AMT_DRAWINGS_ATM_CURRENT,Amount drawing at ATM during the month of the previous credit,,上个月在ATM上取款金额,,,
+159,credit_card_balance.csv,AMT_DRAWINGS_CURRENT,Amount drawing during the month of the previous credit,,上个月提取金额,,,
+160,credit_card_balance.csv,AMT_DRAWINGS_OTHER_CURRENT,Amount of other drawings during the month of the previous credit,,上个月买东西金额,,,
+161,credit_card_balance.csv,AMT_DRAWINGS_POS_CURRENT,Amount drawing or buying goods during the month of the previous credit,,之前分期还款最小金额,,,
+162,credit_card_balance.csv,AMT_INST_MIN_REGULARITY,Minimal installment for this month of the previous credit,,上个月客户支付金额,,,
+163,credit_card_balance.csv,AMT_PAYMENT_CURRENT,How much did the client pay during the month on the previous credit,,客户支付金额,,,
+164,credit_card_balance.csv,AMT_PAYMENT_TOTAL_CURRENT,How much did the client pay during the month in total on the previous credit,,客户支付总金额,,,
+165,credit_card_balance.csv,AMT_RECEIVABLE_PRINCIPAL,Amount receivable for principal on the previous credit,,上一次信用证本金应收金额,,,
+166,credit_card_balance.csv,AMT_RECIVABLE,Amount receivable on the previous credit,,前期应收账款,,,
+167,credit_card_balance.csv,AMT_TOTAL_RECEIVABLE,Total amount receivable on the previous credit,,总账款,,,
+168,credit_card_balance.csv,CNT_DRAWINGS_ATM_CURRENT,Number of drawings at ATM during this month on the previous credit,,本月自动取款机上一次贷方的提款单数量,,,
+169,credit_card_balance.csv,CNT_DRAWINGS_CURRENT,Number of drawings during this month on the previous credit,,提款单数量,,,
+170,credit_card_balance.csv,CNT_DRAWINGS_OTHER_CURRENT,Number of other drawings during this month on the previous credit,,其他地方的提款单数量,,,
+171,credit_card_balance.csv,CNT_DRAWINGS_POS_CURRENT,Number of drawings for goods during this month on the previous credit,,,,,
+172,credit_card_balance.csv,CNT_INSTALMENT_MATURE_CUM,Number of paid installments on the previous credit,,上一次已付分期付款数目,,,
+173,credit_card_balance.csv,NAME_CONTRACT_STATUS,"Contract status (active signed,...) on the previous credit",,合同状态,,,
+174,credit_card_balance.csv,SK_DPD,DPD (Days past due) during the month on the previous credit,,,,,
+175,credit_card_balance.csv,SK_DPD_DEF,DPD (Days past due) during the month with tolerance (debts with low loan amounts are ignored) of the previous credit,,,,,
+176,previous_application.csv,SK_ID_PREV ,"ID of previous credit in Home credit related to loan in our sample. (One loan in our sample can have 0,1,2 or more previous loan applications in Home Credit, previous application could, but not necessarily have to lead to credit) ",hashed,,,,
+177,previous_application.csv,SK_ID_CURR,ID of loan in our sample,hashed,,,,
+178,previous_application.csv,NAME_CONTRACT_TYPE,"Contract product type (Cash loan, consumer loan [POS] ,...) of the previous application",,上一次申请的合同产品类型(现金贷款、消费贷款,,,
+179,previous_application.csv,AMT_ANNUITY,Annuity of previous application,,以前贷款时的年金,,,
+180,previous_application.csv,AMT_APPLICATION,For how much credit did client ask on the previous application,,客户上一个申请要求多少信用？,,,
+181,previous_application.csv,AMT_CREDIT,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT",,上一次申请的最后贷款额。这与AMT_应用程序的不同之处在于，AMT_应用程序是客户最初申请的金额，但在我们的审批过程中，他可能收到不同的金额-AMT_Credits。,,,
+182,previous_application.csv,AMT_DOWN_PAYMENT,Down payment on the previous application,,上一次申请的定金,,,
+183,previous_application.csv,AMT_GOODS_PRICE,Goods price of good that client asked for (if applicable) on the previous application,,客户在上一次申请时要求的商品价格(如果适用的话),,,
+184,previous_application.csv,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for previous application,,一周哪天申请的贷款,,,
+185,previous_application.csv,HOUR_APPR_PROCESS_START,Approximately at what day hour did the client apply for the previous application,rounded,哪时间申请的贷款,,,
+186,previous_application.csv,FLAG_LAST_APPL_PER_CONTRACT,Flag if it was last application for the previous contract. Sometimes by mistake of client or our clerk there could be more applications for one single contract,,如果这是上一份合同的最后一次申请，则标记。有时由于客户或我们的职员的错误，一份合同可能会有更多的申请。,,,
+187,previous_application.csv,NFLAG_LAST_APPL_IN_DAY,Flag if the application was the last application per day of the client. Sometimes clients apply for more applications a day. Rarely it could also be error in our system that one application is in the database twice,,当天最后一次申请,,,
+188,previous_application.csv,NFLAG_MICRO_CASH,Flag Micro finance loan,,小微贷款标志,,,
+189,previous_application.csv,RATE_DOWN_PAYMENT,Down payment rate normalized on previous credit,normalized,首付比率,,,
+190,previous_application.csv,RATE_INTEREST_PRIMARY,Interest rate normalized on previous credit,normalized,最初利率,,,
+191,previous_application.csv,RATE_INTEREST_PRIVILEGED,Interest rate normalized on previous credit,normalized,特级利率,,,
+192,previous_application.csv,NAME_CASH_LOAN_PURPOSE,Purpose of the cash loan,,现金贷款的目的,,,
+193,previous_application.csv,NAME_CONTRACT_STATUS,"Contract status (approved, cancelled, ...) of previous application",,,,,
+194,previous_application.csv,DAYS_DECISION,Relative to current application when was the decision about previous application made,time only relative to the application,上一次决定贷款的时间,,,
+195,previous_application.csv,NAME_PAYMENT_TYPE,Payment method that client chose to pay for the previous application,,之前贷款的支付方式,,,
+196,previous_application.csv,CODE_REJECT_REASON,Why was the previous application rejected,,上次贷款拒绝原因,,,
+197,previous_application.csv,NAME_TYPE_SUITE,Who accompanied client when applying for the previous application,,上次贷款谁陪同的,,,
+198,previous_application.csv,NAME_CLIENT_TYPE,Was the client old or new client when applying for the previous application,,上次贷款时客户是新用户还是老用户,,,
+199,previous_application.csv,NAME_GOODS_CATEGORY,What kind of goods did the client apply for in the previous application,,上次贷款的货物是什么,,,
+200,previous_application.csv,NAME_PORTFOLIO,"Was the previous application for CASH, POS, CAR, ?,
+201,previous_application.csv,NAME_PRODUCT_TYPE,Was the previous application x-sell o walk-in,（上次贷款开车还是走路来的）
+202,previous_application.csv,CHANNEL_TYPE,Through which channel we acquired the client on the previous application,（上次贷款的客户我们是通过什么渠道获得）
+203,previous_application.csv,SELLERPLACE_AREA,Selling area of seller place of the previous application, 上次贷款时候我们销售地方的面积
+204,previous_application.csv,NAME_SELLER_INDUSTRY,The industry of the seller,买房行业
+205,previous_application.csv,CNT_PAYMENT,Term of previous credit at application of the previous application,上次贷款的期限
+206,previous_application.csv,NAME_YIELD_GROUP,Grouped interest rate into small medium and high of the previous application,grouped利率的分组
+207,previous_application.csv,PRODUCT_COMBINATION,Detailed product combination of the previous application,之前贷款的产品详细组合
+208,previous_application.csv,DAYS_FIRST_DRAWING,Relative to application date of current application when was the first disbursement of the previous application,time only relative to the application之前支付第一次贷款的时间
+209,previous_application.csv,DAYS_FIRST_DUE,Relative to application date of current application when was the first due supposed to be of the previous application,time only relative to the application之前贷款第一次应交时间
+210,previous_application.csv,DAYS_LAST_DUE_1ST_VERSION,Relative to application date of current application when was the first due of the previous application,time only relative to the application第一次支付时间
+211,previous_application.csv,DAYS_LAST_DUE,Relative to application date of current application when was the last due date of the previous application,time only relative to the application最后到期时间
+212,previous_application.csv,DAYS_TERMINATION,Relative to application date of current application when was the expected termination of the previous application,time only relative to the application逾期终止时间
+213,previous_application.csv,NFLAG_INSURED_ON_APPROVAL,Did the client requested insurance during the previous application,上次申请中是否要求保险
+214,installments_payments.csv,SK_ID_PREV ,ID of previous credit in Home credit related to loan in our sample. (One loan in our sample can have 0",1,"2 or more previous loans in Home Credit)""",hashed,,
+215,installments_payments.csv,SK_ID_CURR,ID of loan in our sample,hashed,,,,
+216,installments_payments.csv,NUM_INSTALMENT_VERSION,Version of installment calendar (0 is for credit card) of previous credit. Change of installment version from month to month signifies that some parameter of payment calendar has changed,,以前分期付款方式,,,
+217,installments_payments.csv,NUM_INSTALMENT_NUMBER,On which installment we observe payment,,分期付款的数量,,,
+218,installments_payments.csv,DAYS_INSTALMENT,When the installment of previous credit was supposed to be paid (relative to application date of current loan),time only relative to the application,以前贷款的分期付款时间,,,
+219,installments_payments.csv,DAYS_ENTRY_PAYMENT,When was the installments of previous credit paid actually (relative to application date of current loan),time only relative to the application,实际付款时间,,,
+220,installments_payments.csv,AMT_INSTALMENT,What was the prescribed installment amount of previous credit on this installment,,上次规定的分期付款金额,,,
+221,installments_payments.csv,AMT_PAYMENT,What the client actually paid on previous credit on this installment,,实际支付金额,,,
