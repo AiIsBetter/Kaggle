@@ -54,6 +54,10 @@ kaggle是一个非常好的大数据竞赛网站，里面有众多大佬非常�
 
 ### 引用：
 1.https://www.kaggle.com/ogrellier/feature-selection-with-null-importances/notebook
+
 2.https://www.kaggle.com/aantonova/797-lgbm-and-bayesian-optimization
+
 3.https://www.kaggle.com/c/home-credit-default-risk/discussion/57175
+
 4.https://www.kaggle.com/c/home-credit-default-risk/discussion/64510
+
