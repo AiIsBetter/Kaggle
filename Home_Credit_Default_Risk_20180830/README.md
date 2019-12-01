@@ -52,3 +52,8 @@
 kaggle是一个非常好的大数据竞赛网站，里面有众多大佬非常热衷对新手分享入门级的完美kernel并且附带详细的解释。同时他们做数据挖掘的流程和思想有太多值得思考和学习的地方。刷了这2个月分，感觉学到了太多之前几个数据比赛没学到的东西，从数据分析、清洗、挖掘建模、模型融合，都完整实战了一次。欠缺的地方，一是特征工程没做好，没有挖掘到强特征，对风控这块业务特征不了解，基本上靠瞎想加猜、试，二是最终提交的是单模型结果，没有做多模型融合，组队获得不同特征训练的模型应该是一个获得模型差异性比较好的方法。
 赛后对于金牌队伍的一些好的想法进行了实现并加入模型，确实相对于最终成绩有提升，还有些类似融合和nn的方法暂时还没有做，以后有时间有条件还是要尝试实现一下看看具体的效果。
 
+### 引用：
+1.https://www.kaggle.com/ogrellier/feature-selection-with-null-importances/notebook
+2.https://www.kaggle.com/aantonova/797-lgbm-and-bayesian-optimization
+3.https://www.kaggle.com/c/home-credit-default-risk/discussion/57175
+4.https://www.kaggle.com/c/home-credit-default-risk/discussion/64510
