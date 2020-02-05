@@ -38,7 +38,7 @@
  **1th**   DAE+NN，用神经网络训练的结果虽然没有lightgbm训练的好，但是作为stacking的一级模型，用来增加模型的多样化非常有效，能够学到许多变量间的关系。Stacking可以超过2层，他们用了3层，第二层NN, ExtraTree ，Hill Climber，第三层次用等权值混合。
 
  **2th**   非常清晰的流程图。
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0908/133310_22e83c22_1805564.png "20180901083809.png")
+![输入图片说明](https://github.com/AiIsBetter/Kaggle/tree/master/Home_Credit_Default_Risk_20180830/IMG/1.png_1.png "1.png")
 
  **4th**    对100+oof在做stacking第二层之前，用lightgbm做了一次筛选，对cv有提升。
 
