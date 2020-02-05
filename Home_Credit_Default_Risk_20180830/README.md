@@ -38,14 +38,14 @@
  **1th**   DAE+NN，用神经网络训练的结果虽然没有lightgbm训练的好，但是作为stacking的一级模型，用来增加模型的多样化非常有效，能够学到许多变量间的关系。Stacking可以超过2层，他们用了3层，第二层NN, ExtraTree ，Hill Climber，第三层次用等权值混合。
 
  **2th**   非常清晰的流程图。
-![加载图片失败](https://github.com/AiIsBetter/Kaggle/tree/master/Home_Credit_Default_Risk_20180830/IMG/1.png)
+![加载图片失败](https://github.com/AiIsBetter/Kaggle/blob/master/Home_Credit_Default_Risk_20180830/IMG/1.png)
 
  **4th**    对100+oof在做stacking第二层之前，用lightgbm做了一次筛选，对cv有提升。
 
  **5th**    1.用dp训练以前贷款的数据，找出以前各个表中的交互，这个作者还在写详细细节，后续再补充。2.用现在贷款的target，用SK_ID_CURR 合并到以前的各个贷款记录和在信贷局的记录表中（pre_,bur_）,训练模型，用以前的数据预测target，得到的预测值再返回app表作为训练特征。这个预测值用来表示以前的信贷行为对于现在贷款行为的影响，相比于传统的用权值表达行为的影响大小，这个通过模型学习更加自动化，不用人工设定。
 
  **8th**  stacking第一层的oof，可以做为特征合并到原始特征集中用来做为新特征训练第二层，下图是完整流程，这个融合值得借鉴。
-![加载图片失败](https://github.com/AiIsBetter/Kaggle/tree/master/Home_Credit_Default_Risk_20180830/IMG/2.png)
+![加载图片失败](https://github.com/AiIsBetter/Kaggle/blob/master/Home_Credit_Default_Risk_20180830/IMG/2.png)
 
 ### 总结：
 
